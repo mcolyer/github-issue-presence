@@ -13,7 +13,7 @@ module.exports = function(grunt) {
 
     concat: {
       dist: {
-        src: ['lib/jquery-2.0.3.js', 'build/page.js'],
+        src: ['lib/jquery-2.0.3.js', 'lib/underscore-1.5.1.js', 'build/page.js'],
         dest: 'contentscript.js',
       },
     },
